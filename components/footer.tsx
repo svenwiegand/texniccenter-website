@@ -38,11 +38,6 @@ export function Footer() {
                   Community
                 </Link>
               </li>
-              <li>
-                <Link href="/imprint" className="text-muted-foreground hover:text-primary transition-colors">
-                  Imprint
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -52,7 +47,7 @@ export function Footer() {
             <ul className="space-y-2 text-sm">
               <li>
                 <a
-                  href="https://github.com/TeXnicCenter/TeXnicCenter"
+                  href="https://github.com/weinkauf/TeXnicCenter/"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="text-muted-foreground hover:text-primary transition-colors inline-flex items-center gap-1"
@@ -84,6 +79,11 @@ export function Footer() {
               <li>
                 <Link href="/about" className="text-muted-foreground hover:text-primary transition-colors">
                   About the Project
+                </Link>
+              </li>
+              <li>
+                <Link href="/imprint" className="text-muted-foreground hover:text-primary transition-colors">
+                  Imprint
                 </Link>
               </li>
             </ul>
