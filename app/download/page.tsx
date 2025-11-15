@@ -32,13 +32,13 @@ export default function DownloadPage() {
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
                 <Button size="lg" asChild>
-                  <a href="#download" onClick={(e) => e.preventDefault()}>
+                  <a href="https://web.archive.org/web/20250915082606/http://sourceforge.net/projects/texniccenter/files/TeXnicCenter/2.02%20Stable/TXCSetup_2.02Stable_Win32.exe/download">
                     <Download className="mr-2 h-5 w-5" />
                     Download Installer (32-bit)
                   </a>
                 </Button>
                 <Button size="lg" variant="outline" asChild>
-                  <a href="#download" onClick={(e) => e.preventDefault()}>
+                  <a href="https://web.archive.org/web/20250915082606/http://sourceforge.net/projects/texniccenter/files/TeXnicCenter/2.02%20Stable/TXCSetup_2.02Stable_x64.exe/download">
                     <Download className="mr-2 h-5 w-5" />
                     Download Installer (64-bit)
                   </a>
