@@ -139,60 +139,6 @@ $E = mc^2$.
             </Card>
           </div>
 
-          {/* Additional Resources */}
-          <div className="mb-12">
-            <h2 className="text-2xl font-bold mb-6">Additional Resources</h2>
-            <div className="grid md:grid-cols-2 gap-4">
-              <Card>
-                <CardHeader>
-                  <FileText className="h-8 w-8 mb-2 text-primary" />
-                  <CardTitle>LaTeX Basics</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground text-sm">
-                    Learn the fundamental LaTeX commands and document structure to create any type of document.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <Settings className="h-8 w-8 mb-2 text-primary" />
-                  <CardTitle>Advanced Configuration</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground text-sm">
-                    Customize TeXnicCenter's behavior, keyboard shortcuts, and output profiles to match your workflow.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <Play className="h-8 w-8 mb-2 text-primary" />
-                  <CardTitle>Tips & Tricks</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground text-sm">
-                    Discover productivity shortcuts and advanced features to speed up your document creation process.
-                  </p>
-                </CardContent>
-              </Card>
-
-              <Card>
-                <CardHeader>
-                  <BookOpen className="h-8 w-8 mb-2 text-primary" />
-                  <CardTitle>Package Guide</CardTitle>
-                </CardHeader>
-                <CardContent>
-                  <p className="text-muted-foreground text-sm">
-                    Learn about popular LaTeX packages for graphics, tables, bibliography management, and more.
-                  </p>
-                </CardContent>
-              </Card>
-            </div>
-          </div>
-
           {/* Help Section */}
           <Card className="bg-muted/50">
             <CardHeader>
@@ -200,7 +146,7 @@ $E = mc^2$.
             </CardHeader>
             <CardContent>
               <p className="text-muted-foreground mb-4">
-                If you're stuck or have questions, check out our <Link href="/faq" className="text-primary hover:underline">FAQ page</Link> or visit the <Link href="/community" className="text-primary hover:underline">Community & Support</Link> section to connect with other TeXnicCenter users.
+                If you're stuck or have questions, check out <a href="https://texniccenter.sourceforge.net/" className="text-primary hover:underline">the full documentation</a>, our <Link href="/faq" className="text-primary hover:underline">FAQ page</Link> or visit the <Link href="/community" className="text-primary hover:underline">Community & Support</Link> section to connect with other TeXnicCenter users.
               </p>
             </CardContent>
           </Card>
