@@ -61,7 +61,7 @@ export default function HomePage() {
               </CardHeader>
               <CardContent>
                 <CardDescription>
-                  Organize your LaTeX documents into projects with multiple files, includes, and references all managed seamlessly.
+                  Organize your LaTeX documents into projects with multiple files and easily navigate your document structure.
                 </CardDescription>
               </CardContent>
             </Card>

@@ -31,7 +31,7 @@ export default function CommunityPage() {
                   Found a bug or have a feature request? Open an issue on our GitHub repository. This is the best place for bug reports and feature discussions.
                 </p>
                 <Button asChild variant="outline">
-                  <a href="https://github.com/TeXnicCenter/TeXnicCenter" target="_blank" rel="noopener noreferrer">
+                  <a href="https://github.com/weinkauf/TeXnicCenter" target="_blank" rel="noopener noreferrer">
                     View on GitHub
                   </a>
                 </Button>
@@ -41,51 +41,17 @@ export default function CommunityPage() {
             <Card>
               <CardHeader>
                 <MessageSquare className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>Stack Overflow</CardTitle>
+                <CardTitle>Stack Exchange</CardTitle>
                 <CardDescription>Ask questions and get answers</CardDescription>
               </CardHeader>
               <CardContent>
                 <p className="text-muted-foreground mb-4">
-                  Have a question about using TeXnicCenter or LaTeX? Search for existing answers or ask a new question on Stack Overflow with the "texniccenter" tag.
+                  Have a question about using TeXnicCenter or LaTeX? Search for existing answers or ask a new question on TeX StackExchange with the "texniccenter" tag.
                 </p>
                 <Button asChild variant="outline">
-                  <a href="https://stackoverflow.com/questions/tagged/texniccenter" target="_blank" rel="noopener noreferrer">
-                    Visit Stack Overflow
-                  </a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <BookOpen className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>LaTeX Community</CardTitle>
-                <CardDescription>General LaTeX help and resources</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  For general LaTeX questions not specific to TeXnicCenter, the TeX - LaTeX Stack Exchange community is an excellent resource with thousands of questions and answers.
-                </p>
-                <Button asChild variant="outline">
-                  <a href="https://tex.stackexchange.com/" target="_blank" rel="noopener noreferrer">
+                  <a href="https://tex.stackexchange.com/questions/tagged/texniccenter" target="_blank" rel="noopener noreferrer">
                     Visit TeX Stack Exchange
                   </a>
-                </Button>
-              </CardContent>
-            </Card>
-
-            <Card>
-              <CardHeader>
-                <Users className="h-10 w-10 mb-2 text-primary" />
-                <CardTitle>User Forums</CardTitle>
-                <CardDescription>Community discussions and tips</CardDescription>
-              </CardHeader>
-              <CardContent>
-                <p className="text-muted-foreground mb-4">
-                  Connect with other TeXnicCenter users to share tips, discuss workflows, and help each other solve problems in community forums and discussion boards.
-                </p>
-                <Button asChild variant="outline" disabled>
-                  <span>Forum Link (TBD)</span>
                 </Button>
               </CardContent>
             </Card>
@@ -116,15 +82,11 @@ export default function CommunityPage() {
                 </li>
                 <li className="flex items-start gap-2">
                   <span className="text-primary font-bold mt-1">•</span>
-                  <span><strong>Translate:</strong> Help make TeXnicCenter available in more languages</span>
-                </li>
-                <li className="flex items-start gap-2">
-                  <span className="text-primary font-bold mt-1">•</span>
-                  <span><strong>Help Others:</strong> Answer questions on Stack Overflow and forums</span>
+                  <span><strong>Help Others:</strong> Answer questions on Stack Exchange and forums</span>
                 </li>
               </ul>
               <Button asChild className="mt-4">
-                <a href="https://github.com/TeXnicCenter/TeXnicCenter" target="_blank" rel="noopener noreferrer">
+                <a href="https://github.com/weinkauf/TeXnicCenter" target="_blank" rel="noopener noreferrer">
                   <Github className="mr-2 h-4 w-4" />
                   Contribute on GitHub
                 </a>

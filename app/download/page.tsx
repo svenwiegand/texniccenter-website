@@ -44,13 +44,6 @@ export default function DownloadPage() {
                   </a>
                 </Button>
               </div>
-              <Alert>
-                <AlertCircle className="h-4 w-4" />
-                <AlertTitle>Note</AlertTitle>
-                <AlertDescription>
-                  Replace the href="#download" placeholder with your actual download URLs when you're ready to deploy.
-                </AlertDescription>
-              </Alert>
             </CardContent>
           </Card>
 

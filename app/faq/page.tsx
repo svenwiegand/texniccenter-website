@@ -57,6 +57,15 @@ export default function FAQPage() {
                   No, TeXnicCenter is designed specifically for Windows. For Mac, you can use TeXShop or TeXworks. For Linux, consider using TeXmaker, Kile, or TeXstudio, which offer similar functionality.
                 </AccordionContent>
               </AccordionItem>
+
+              <AccordionItem value="dev-status" className="border rounded-lg px-4">
+                <AccordionTrigger className="text-left">
+                  What's the current status of the TeXnicCenter development?
+                </AccordionTrigger>
+                <AccordionContent className="text-muted-foreground">
+                  TeXnicCenter currently isn't actively developed. But it's open source, so that everyone can contribute. You will find the Github link at the bottom of this page.
+                </AccordionContent>
+              </AccordionItem>
             </div>
 
             {/* Installation & Setup */}

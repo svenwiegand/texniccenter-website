@@ -18,6 +18,7 @@ export function Navigation() {
     { href: '/faq', label: 'FAQ' },
     { href: '/community', label: 'Community' },
     { href: '/about', label: 'About' },
+    { href: '/imprint', label: 'Imprint' },
   ]
 
   return (

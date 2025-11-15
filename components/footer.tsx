@@ -38,6 +38,11 @@ export function Footer() {
                   Community
                 </Link>
               </li>
+              <li>
+                <Link href="/imprint" className="text-muted-foreground hover:text-primary transition-colors">
+                  Imprint
+                </Link>
+              </li>
             </ul>
           </div>
 

@@ -27,7 +27,7 @@ export default function AboutPage() {
                 TeXnicCenter is a free, open-source integrated development environment (IDE) for creating LaTeX documents on the Windows platform. Since its first release, TeXnicCenter has been helping students, researchers, and professionals create high-quality documents with LaTeX.
               </p>
               <p>
-                The project was born out of the need for a user-friendly LaTeX editor on Windows that could compete with commercial alternatives while remaining completely free. Today, TeXnicCenter is used by thousands of people worldwide, from undergraduate students writing their first lab reports to professors preparing research papers and books.
+                The project was born in 1999 by Sven Wiegand, out of the need for a user-friendly LaTeX editor on Windows that makes it easy to navigate in multi file projects and insert references with just a click. TeXnicCenter has been downloaded millions of times all around the globe, from undergraduate students writing their first lab reports to professors preparing research papers and books.
               </p>
             </CardContent>
           </Card>
@@ -39,21 +39,14 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
-                TeXnicCenter's development began in the early 2000s as a project to create a powerful yet accessible LaTeX editor for Windows users. The goal was to provide an IDE that could handle everything from simple documents to complex multi-file projects with bibliography management, index generation, and more.
+                Sven Wiegand started the development of TeXnicCenter in 1999 to write his diploma thesis. His goal was to create a powerful yet accessible LaTeX editor for Windows users. The goal was to provide an IDE that could handle everything from simple documents to complex multi-file projects with bibliography management, index generation, and more.
+                In the early 2000s the software became more traction and became the default for LaTeX editing on Windows with millions of downloads. Developers created several clones for other platforms reusing the groundbreaking document navigation.
               </p>
               <p>
-                Over the years, TeXnicCenter has evolved through multiple major versions, each adding new features and improving the user experience. Key milestones include:
+                After several beta version the first stable version was released in 2008. At the same time Tino Weinkauf – who contributed several enhancements over the years before – took over the management of the project.
+                The latest version is 2.02 from 2013.
               </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Launch of version 1.0 with basic project management and compilation features</li>
-                <li>Introduction of syntax highlighting and auto-completion in version 1.0 Beta</li>
-                <li>Major redesign in version 2.0 with improved UI and Unicode support</li>
-                <li>Enhanced PDF viewer integration and forward/inverse search capabilities</li>
-              </ul>
-              <p>
-                Throughout its history, TeXnicCenter has remained true to its core mission: providing a free, powerful, and user-friendly LaTeX editor for Windows.
-              </p>
-            </CardContent>
+             </CardContent>
           </Card>
 
           {/* License & Open Source */}
@@ -84,8 +77,57 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
-                TeXnicCenter is developed and maintained by a team of volunteers who are passionate about LaTeX and open-source software. The project has benefited from contributions from developers around the world who have donated their time and expertise to improve the software.
+                TeXnicCenter has been developed and maintained by a team of volunteers who are passionate about LaTeX and open-source software:
               </p>
+              <h3><strong>Creator:</strong> Sven Wiegand</h3>
+              <h3><strong>Maintainer:</strong> Tino Weinkauf</h3>
+              <h3><strong>Main Code</strong></h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Sergiu Dotenco</li>
+                <li>Alexander Müller</li>
+                <li>Tino Weinkauf</li>
+                <li>Sven Wiegand</li>
+                <li>Oliver Wieland</li>
+              </ul>
+              <h3><strong>Scintilla Source Code Editing Component:</strong> Neil Hodgson, et al.</h3>
+              <h3><strong>Hunspell Spell Checker:</strong> László Németh</h3>
+              <h3><strong>Additional Codes:</strong></h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Loïc d'Anterroches</li>
+                <li>Stefan Ascher</li>
+                <li>Adam Clauss</li>
+                <li>Michael Dunn</li>
+                <li>Raffi Enficiaud</li>
+                <li>Mark Findlay</li>
+                <li>Chris Norris</li>
+                <li>Stephan Schrader</li>
+                <li>Paul Selormey</li>
+                <li>Martin Stanek</li>
+                <li>Alexander Täschner</li>
+                <li>Pavel Vacha</li>
+                <li>Christian Welzel</li>
+              </ul>
+              <h3><strong>Online-Help & Tips:</strong></h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Gerald Binder</li>
+                <li>Sergiu Dotenco</li>
+                <li>Marckus Kraft</li>
+                <li>Rüdiger Stuible</li>
+                <li>Tino Weinkauf</li>
+                <li>Sven Wiegand</li>
+              </ul>
+              <h3><strong>TeXnicCenter Templates:</strong></h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Christoph Börensen</li>
+                <li>Mark Müller</li>
+                <li>Gyorgy Szeidl</li>
+                <li>Tino Weinkauf</li>
+              </ul>
+              <h3><strong>Logo and Icons:</strong></h3>
+              <ul className="list-disc list-inside space-y-2 ml-4">
+                <li>Felix Kaiser</li>
+                <li>Lukas Schneider</li>
+              </ul>
               <p>
                 We're always looking for new contributors! Whether you're a developer, designer, technical writer, or translator, there are many ways to help improve TeXnicCenter. Visit our <Link href="/community" className="text-primary hover:underline">Community & Support page</Link> to learn how you can get involved.
               </p>
@@ -99,17 +141,7 @@ export default function AboutPage() {
             </CardHeader>
             <CardContent className="space-y-4 text-muted-foreground">
               <p>
-                While TeXnicCenter is a mature and stable application, development continues to add new features and improve existing functionality. Future development priorities include:
-              </p>
-              <ul className="list-disc list-inside space-y-2 ml-4">
-                <li>Enhanced support for modern LaTeX workflows and packages</li>
-                <li>Improved performance and stability on newer Windows versions</li>
-                <li>Better integration with modern PDF viewers and tools</li>
-                <li>Continued refinement of the user interface and user experience</li>
-                <li>Enhanced support for collaborative workflows and version control</li>
-              </ul>
-              <p>
-                The direction of TeXnicCenter is guided by user feedback and the needs of the LaTeX community. If you have suggestions for future features or improvements, please share them on our GitHub repository.
+                No further development is currently taking place. If you want to contribute, reach out to the Github project linked at the bottom of the page.
               </p>
             </CardContent>
           </Card>
